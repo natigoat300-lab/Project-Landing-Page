@@ -5,14 +5,18 @@ ul, a {
     padding: 0px;
     margin: 0px;
 }
-body {
-    padding: 0px;
-    margin: 0px;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevents accidental side-scrolling */
 }
 .container {
     font-family: 'Roboto';
     color: white;
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 .header {
     padding: 20px 40px 40px 40px;
@@ -31,13 +35,14 @@ body {
 .hero {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 80px;
-    padding: 40px ;
+    padding: 30px ;
 }
 p {
     margin: 0px;
 }
-h1 {
+.underH h1 {
     margin: 0px;
     font-size: 48px;
     color: #f9faf8;
@@ -56,4 +61,44 @@ button {
     margin-top: 15px;
     font-weight: bold;
     
+}
+
+.box {
+    border: 3px solid rgb(60, 43, 211);
+    height: 150px;
+    width: 200px;
+    border-radius: 13px;
+}
+.info-containers {
+    display: flex;
+    padding: 20px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-item p {
+    font-size: 20px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding: 70px;
+    color: rgb(94, 90, 90);
+}
+.quotes {
+    margin-left: 600px;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+
 }
