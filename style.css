@@ -5,6 +5,11 @@ ul, a {
     padding: 0px;
     margin: 0px;
 }
+h1  {
+    margin: 0px;
+}
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -101,4 +106,33 @@ button {
     font-weight: 300;
     font-size: 36px;
 
+}
+.bfooter {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    background-color: #3882F6;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: white;
+    gap: 30px;
+
+}
+.call {
+    padding: 30px;
+    
+}
+.sign-up button {
+    margin-top: 50px;
+    border: 3px solid white;
+}
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: auto;
 }
